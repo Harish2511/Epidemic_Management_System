@@ -1,0 +1,55 @@
+#form{
+    position: relative;
+    height: 400px;
+    width: 405px;
+    margin: auto;
+    margin-top: 130;
+    padding: 60px 60px;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+}
+#id-dob{
+    margin-top: 10px;
+}
+.text-box{
+    border-radius: 20px;
+}
+input {
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 15px;
+    width: 300;
+    height: 35;
+    font-size: 14px;
+}
+button{
+  background-color: #1161ed;
+  color: #FFF;
+  width: 100%;
+  margin: 30 0;
+  padding: 8px 20px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 40px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.1s;
+}
+button:hover{
+    transform: scale(1.03);
+    transition: 0.1s;
+}
+/* .list{
+    width: 100px;
+}
+   */
+input[type="radio"]{
+    width: 30px;
+    display: inline;
+}
+.label--checkbox{
+    margin: 0px 10px;
+    display: inline;
+}
